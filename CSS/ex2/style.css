@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+}
+
+.caixa {
+    margin: 2vw;
+    display: flex;
+    height: 95vh;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+main {
+    order: 2;
+    flex-basis: auto;
+    outline: solid rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 217, 255, 0.2);
+}
+
+aside {
+    order: 1;
+    flex-basis: 25%;
+    outline: solid rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 217, 255, 0.2);
+}

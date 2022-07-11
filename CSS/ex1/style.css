@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    font-family: sans-serif;
+}
+
+header {
+    padding: 1rem;
+}
+
+nav{
+    background-color: grey;
+    display: flex;
+    flex-direction: row;
+    height: 10vh;
+    outline: solid green;
+    justify-content: space-between;
+}
+
+nav > img{
+    justify-content: flex-start;
+    outline: solid red;
+}
+
+nav > ul{
+    display: flex;
+    justify-content: flex-end;
+    outline: solid black;
+    gap: .8rem;
+    list-style: none;
+    align-items: center;
+    font-weight: 600; 
+    color: rgba(0, 0, 0, 0.5);
+}
+
+ul li:last-child {
+    font-weight: 100;
+    background: hsl(250, 76%, 50%);
+    color: white;
+    border-radius: 5px;
+    padding: 7px;
+}
