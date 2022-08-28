@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+}
+
+img {
+    display: flex;
+    width: 30%;
+}
+
+.imgs {
+    display: flex;
+    margin: 2rem;
+    flex-wrap: wrap;
+    gap: .8rem;
+    justify-content: center;
+}
