@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/style.css">
+    <script src="./assets/script.js"></script>
+    <title>Login SmartOrder</title>
+    <link rel="shortcut icon" href="./assets/icons/logo.svg" type="image/x-icon">
+</head>
+<body>
+    <div class="container">
+        <aside role="img" aria-label="Uma pizza em um forno a lenha do lado esquerdo da tela">
+        </aside>
+        <main>
+            <h1><img src="assets/icons/logo.svg" alt="Logo" srcset="">SmartOrder</h1>
+            <form action="index.html" method="none">
+                <h2>Login</h2>
+                <div class="input-container">
+                    <span class="icon user"></span>                
+                    <input type="text" name="user" class="input" placeholder="Nome de usuário">
+                </div>
+                <div class="input-container">
+                    <span class="icon lock"></span>
+                    <input type="password" name="password" class="input" placeholder="Senha">
+                    <button type="button" class="icon eye" onclick="togglePasswordVisibility()" aria-label="Mostrar ou ocultar senha"></button>
+                </div>
+                <div class="rememberme">
+                    <input type="checkbox" name="remember" class="checkbox">
+                    <label for="remember">Lembrar-me</label>
+                </div>
+                <button type="submit">Login</button>
+                <p><a href="forgot.html">Esqueceu sua senha?</a></p>
+            </form>
+            <p>Não tem uma conta? <a href="adquirir.html">Adquira SmartOrder agora!</a></p>
+        </main>
+    </div>
+</body>
+</html>
